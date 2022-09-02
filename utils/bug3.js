@@ -1,6 +1,6 @@
 const bugThree = (string) => {
-  'Hello'.lastIndexOf('e')
-  return string
+  const message = 'Hello'.lastIndexOf('e')
+  return string + message
 }
 
 module.exports = bugThree

@@ -1,6 +1,6 @@
 const codeSmellThree = (value) => {
   if (value.birthday) {
-    value.birthday = String(value.birthday.toISOString()).substr(0, 10)
+    value.birthday = String(value.birthday.toISOString()).substring(0, 10)
   }
   return value
 }

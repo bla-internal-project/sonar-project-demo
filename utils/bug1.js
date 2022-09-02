@@ -5,4 +5,4 @@ const bugOne = (boolConst) => {
   return result
 }
 
-module.exports = bugOne(boolConst, 'false')
+module.exports = bugOne(boolConst)
