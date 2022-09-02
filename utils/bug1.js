@@ -1,9 +1,8 @@
-const bugOne = (boolVConst) => {
-  let result = 'False'
-  if (boolVConst === true || boolVConst === 'true') {
+const bugOne = (boolConst) => {
+  if (boolConst === true || boolConst === 'true') {
     result = 'True'
   }
   return result
 }
 
-module.exports = bugOne
+module.exports = bugOne(boolConst, 'false')
